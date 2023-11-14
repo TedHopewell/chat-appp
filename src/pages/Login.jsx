@@ -1,11 +1,13 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 
 
 const LoginPage = () => {
+
+  
   return (
     <div className='formContainer'>
       <div className="formWrapper">
-        <span className="logo">Kasi Chat</span>
+        <span className="logo">Chat App</span>
         <span className="title">Login</span>
         <form>
            
